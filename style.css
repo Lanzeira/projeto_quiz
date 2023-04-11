@@ -18,12 +18,21 @@ button {
     display: block;
     width: 300px;
     padding: 10px;
+    border:none;
     
 }
 
-.resposta{
+.resposta {
     margin:auto auto;
     margin-bottom: 1%;
+    cursor: pointer;
+
+}
+.resposta:hover {
+    background-color: yellow;
+}
+.resposta.selecionada{
+    background-color: rgb(170, 170, 193);
 }
 #confirm{
     margin: auto auto;
